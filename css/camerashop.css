@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(213, 219, 198);
+    padding: 0;
+    font-family:'Times New Roman';
+    font-size: 18px;
+}
+img {
+    height: 150px;
+    width: 150px;
+} 
+.banner{
+    display: grid;
+    grid-template-columns: 10% 60%;
+    color: white;
+}    
+.Header{
+    background-color: rgb(131, 103, 103);
+    padding-bottom: 0;
+}
+.box{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+}
+.box ul{
+
+}
+.Menu ul {
+    display: flex;
+    list-style: none;
+    background-color: rgb(138, 126, 150);
+    margin: 0px;
+    padding: 10px;
+}
+.Menu li a{
+    display: block;
+    text-decoration: none;
+}
+.Menu li{
+    position: relative;
+}
+div.Menu li a:hover{
+    color: red;
+    background: rgb(233, 238, 238);
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+}
+.Menu .submenu{
+    display: none;
+}
+.Menu ul li:hover .submenu{
+    display: block;
+}
+ul.submenu li a{ 
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 10px;
+}
+.Menu ul.submenu{
+    position: absolute;
+    width: 200px;
+    background-color: rgb(138, 126, 150);
+    min-height: 150px;
+}
+ul.menu0 >li {
+    list-style: none;
+}
+ul.menu0 >li >a{
+    text-decoration: none;
+    position: relative;
+}
+ul.menu0 li a:hover{
+    background:white ;
+    color: red;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+}
+ul.menu1{
+    display: none;
+}
+ul.menu1 li{
+    list-style: none;
+}
+ul.menu1 li a{
+    text-decoration: none;
+}
+ul.menu0 >li:hover ul.menu1{
+    display: block;
+}
+ul.menu2{
+    display: none;
+}
+ul.menu0 li ul.menu1 >li:hover ul.menu2{
+    display: block;
+}
+ul.menu3{
+    display: none;
+}
+ul.menu0 li ul.menu1 li ul.menu2 > li:hover ul.menu3{
+    display: block;
+}
+ul.menu4{
+    display: none;
+}
+ul.menu0 li ul.menu1 li ul.menu2 li ul.menu3 > li:hover ul.menu4{
+    display: block;
+}
+ul.menu5{
+    display: none;
+}
+ ul.menu4> li:hover ul.menu5{
+    display: block;
+}
+h3{
+    color: black;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
