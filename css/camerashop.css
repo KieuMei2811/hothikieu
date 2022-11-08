@@ -17,18 +17,11 @@ img {
     background-color: rgb(131, 103, 103);
     padding-bottom: 0;
 }
-.box{
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: row;
-    width: 100px;
-    height: 100px;
-}
-.box ul{
 
-}
 .Menu ul {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     list-style: none;
     background-color: rgb(138, 126, 150);
     margin: 0px;
@@ -68,7 +61,97 @@ ul.submenu li a{
     background-color: rgb(138, 126, 150);
     min-height: 150px;
 }
-ul.menu0 >li {
+.menu0 ul{
+    list-style: none; 
+}
+.menu0 li a{
+    display: block;
+    text-decoration: none;
+}
+.menu0 li{
+    position: relative;
+}
+div.menu0 li a:hover{
+    color: red;
+    background: rgb(233, 238, 238);
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+
+}
+/* .menu0 ul li {
+    border: black;
+    background-color: bisque;
+    width: 100px;
+    height: 30px;
+} */
+.menu0 .menu{
+    display: none;
+}
+.menu0 ul li:hover .menu{
+    display: block;
+}
+.menu0 ul li a:hover {
+    background-color: plum;
+
+}
+ul.menu li a{ 
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 10px;
+}
+.menu0 ul.menu{
+    top: 1px;
+    left: 50px;
+    position: absolute;
+    width: 200px;
+    background-color: rgb(138, 126, 150); 
+    min-height: 150px;
+}
+
+
+
+
+
+
+/*  */
+/* ul.menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    border: 1px solid #f1f1f1;
+    border-top: 1px solid #000 !important;
+}
+ul.menu li, ul.menu li a{
+    border-bottom: 1px solid #000;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 5px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+}
+ul.menu li :hover, ul.menu li a :hover {
+    display: block;
+    background: #fbfbfb;
+    color: red;
+}
+ul .menu li > ul menu {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    display: block;
+    border-right: 1px solid #000;
+    background-color: #fbfbfb;
+}
+ul.menu li :hover > ul.menu{
+    display: block;
+} */
+/* ul.menu0 >li {
     list-style: none;
 }
 ul.menu0 >li >a{
@@ -81,6 +164,7 @@ ul.menu0 li a:hover{
     transition: ease-in 0.60s;
     -moz-transition: ease-in 0.60s;
     -webkit-transition: ease-in 0.60s;
+    border-bottom: 1px solid #ccc;
 }
 ul.menu1{
     display: none;
@@ -118,12 +202,55 @@ ul.menu5{
  ul.menu4> li:hover ul.menu5{
     display: block;
 }
+.menu0 li :first-child {
+    border-top: 1px solid ;
+} */
 h3{
     color: black;
     position: absolute;
     left: 300px;
     top: 200px;
 }
+.Content{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.right-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+    text-align: center;  
+}
+.left-content{
+    border: 1px solid black;
+    width: 200px;
+    position: relative;
+}
+/* .menu1, .menu2,.menu3,.menu4,.menu5{
+    width: 1000px;
+} */
+.right-content img {
+    height: 250px;
+    width: 250px;
+    margin: -50px;
+}
+.degital{
+    position: relative;
+    top: -10px;
+}
+.please-call{
+    position: relative;
+    top: -10px;
+    color: red;
+}
+button{
+    position: relative;
+    top: -30px;
+}
+.products{
+    background-color: white;
+    margin: 15px;
+} 
 
 
 
