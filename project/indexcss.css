@@ -1,0 +1,65 @@
+.gio:hover{
+    color: red;
+    background-color: white;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+}
+.gio{
+    border-radius: 10px ;
+    border: 1px solid white;
+    padding: 5px 0px 2px 30px;
+}
+.gio img {
+    width: 30px;
+    margin-left: -20px;
+}
+span{
+    text-decoration: none;
+    list-style: none;
+    color: white; 
+}
+span:hover{
+    color: red;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: yellow;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+    text-decoration: none;
+    list-style: none;
+}
+button p:hover{
+    color: red;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+}
+a p:hover{
+    color: red;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+}
+p:hover{
+    color: red;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+}
+
+
+
+
+
+
+
