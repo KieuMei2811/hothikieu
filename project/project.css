@@ -1,4 +1,51 @@
-
+.banner{
+    background-color:#ffde59; 
+    padding-bottom: -400px;
+}
+.banner .col-sm-2 img {
+    width:150px;
+}
+.banner .col-sm-3 h4{
+    text-decoration: none;
+    color: black;
+}
+.banner .col-sm-2 a{
+    font-size:50px;
+    text-decoration:none;
+    color: white;
+}
+.banner .col-sm-2 button{
+    margin-left:-25px; 
+    width: 150px;
+    background-color:#ffde59; 
+    border:1px solid black;
+}
+.header{
+    background-color: orangered; 
+    padding-bottom:9px;
+    padding-top:9px;
+}
+.header .input-group {
+    margin-top:12px;
+}
+.header .input-group-btn button{
+    background-color: yellow ;
+}
+.header .col-sm-5 .col-sm-4 img{
+    width:20px;
+    color: white;
+}
+.header .col-sm-5 .col-sm-4 a{
+    margin:30px;
+}
+.col-sm-5 .col-sm-3 span{
+    color:white; 
+    width:20px; 
+    color: white;
+}
+.col-sm-5 .col-sm-3 a{
+    margin:20px;
+}
 .gio:hover{
     color: red;
     background-color: white;
@@ -10,6 +57,7 @@
     border-radius: 10px ;
     border: 1px solid white;
     padding: 5px 0px 2px 30px;
+    margin-top: 10px;
 }
 .gio img {
     width: 30px;
@@ -19,6 +67,9 @@ span{
     text-decoration: none;
     list-style: none;
     color: white; 
+}
+.so{
+    background-color: #ffde59;
 }
 span:hover{
     color: red;
@@ -102,25 +153,18 @@ p:hover{
     -webkit-transition: ease-in 0.10s;
     /* background-color:rgb(255, 233, 237); */
 }
-/* .menu-big{
-    display: fixed;
-} */
-/* mn {
-    margin-left: 200px;
-    margin-top: -10px;
-    position: absolute;
-    line-height: 15px;
-    display: none;
-} */
 .submenu-1 .submenu-1ul{
     display: none;
+}
+.submenu-1:hover .submenu-1ul{
+    display: block;
 }
 .submenu-1:hover .submenu-1ul{
     display: block;
     position: absolute;
     line-height: 15px;
     margin-left: 250px;
-    margin-top: -19px;
+    margin-top: -27px;
     border: 1px solid rgb(245, 242, 243) ;
     background-color: rgb(245, 242, 243) ;
 }
@@ -139,7 +183,7 @@ p:hover{
     position: absolute;
     line-height: 15px;
     margin-left: 250px;
-    margin-top: -60px;
+    margin-top: -68px;
     border: 1px solid rgb(245, 242, 243) ;
     background-color: rgb(245, 242, 243) ;;
 }
@@ -150,16 +194,108 @@ p:hover{
     color: black;
     text-decoration: none;
 }
+.submenu-1 img{
+    width:20px;
+}
+.submenu-1 i{
+    margin-right:-10px ;
+}
+.submenu-2 img{
+    width:20px;
+}
+.submenu-2 i{
+    margin-right:-50px ;
+}
+.submenu-3 img{
+    width:20px;
+}
+.submenu-3 i{
+    margin-left:65px ;
+}
+.submenu-4 img {
+    width:20px;
+}
+.submenu-4 i{
+    margin-right:-30px ;
+}
+.submenu-5 img{
+    width:20px;
+}
+.submenu-5 i{
+    margin-left:67px ;
+}
+.submenu-6 img{
+    width:20px;
+}
+.submenu i{
+    margin-left:50px ;
+}
+.submenu-7 img{
+    width:20px;
+}
+.submenu-7 i{
+    margin-left:87px ;
+}
+.submenu-8 img{
+    width:20px;
+}
+.submenu-8 i{
+    margin-left:55px ;
+}
+.submenu-9 img{
+    width:20px;
+}
+.submenu-10 img{
+    width:20px;
+}
+.submenu-10 i{
+    margin-left:100px ;
+}
+.content-top .col-sm-3 img{
+    width:20px;
+}
 #myCarousel{
     width: 70%;
     margin-left:23%;
 }
-
-
-
-
-
-
-
-
-
+ h5{
+    margin-top: 29px;
+}
+.col-sm-2.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 20%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 16%;
+    right: 0;
+    background-color:rgb(250, 241, 241);
+    overflow: hidden;
+    width: 120%;
+    height: 0;
+    transition: .6s ease;
+  }
+  
+  .col-sm-2 .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
