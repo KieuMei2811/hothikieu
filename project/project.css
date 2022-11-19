@@ -266,36 +266,212 @@ p:hover{
     width: 50%;
   }
   
+  
+  /* .overlay i{
+    color: red;
+  } */
+
   .image {
+    width: 110%;
+    height: 110%;
+    position: relative;
+  }
+  .khung{
+    margin-top: 10%;
+    width:130%;
+    height: 130%;
     display: block;
-    width: 20%;
-    height: auto;
   }
   
   .overlay {
     position: absolute;
-    bottom: 0;
-    left: 16%;
+    left: 6%;
     right: 0;
-    background-color:rgb(250, 241, 241);
+    background-color:gray;
     overflow: hidden;
-    width: 120%;
+    width: 100%;
     height: 0;
     transition: .6s ease;
   }
-  
-  .col-sm-2 .container:hover .overlay {
-    height: 100%;
+   .slides :hover .overlay {
+    height: 51%;
+    opacity: 0.6;
+    margin-top: 10%;
   }
-  
-  .text {
-    color: white;
+    .text1 {
     font-size: 20px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 30%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .text2 {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text1 i {
+    color: orangered;
+    background: white;
+    border: 0.1875em solid white;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    position: absolute;
+    transition: transform .2s;
+  }
+  .text2 i {
+    color: orangered;
+    background: white;
+    border: 0.1875em solid white;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    position: absolute;
+    transition: transform .2s;
+  }
+  .text2 i:hover {
+    transform: scale(1.5); 
+  }
+  .text1 i:hover {
+    transform: scale(1.5); 
+  }
+  .flashsale__progressbar{
+        background: rgb(231, 228, 228);
+        border-radius: 10px ;
+        border: 1px solid red;
+        padding: 5px 0px 2px 30px;
+        margin-top: 10px;
+        
+  }
+  .flashsale___percent{
+       background: red;
+        border-radius: 15px ;
+        border: 1px solid red;
+        padding: 5px 2px 2px 30px;
+        margin-top: -5px;
+        margin-left: -23%;
+  }
+  .giaca{
+    position: relative;
+  }
+  .gia{
+    color: red;
+  }
+  .slides :hover .overlay1{
+    height: 53%;
+    opacity: 0.6;
+    margin-top: 10%;
+}
+.overlay1 {
+    position: absolute;
+    bottom: 42.2%;
+    left: 6%;
+    right: 0;
+    background-color:gray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+  }
+.xem {
+    border-radius: 10px ;
+    border: 1px solid orangered;
+    padding: 15px 15px 15px 15px;
+    color: red;
+    margin-left: 45%;
+}
+
+.xem1:hover a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    transition: ease-in 0.30s;
+    -moz-transition: ease-in 0.30s;
+    -webkit-transition: ease-in 0.30s;
+}
+.khung1{
+    margin-top: 10%;
+    width:100%;
+    height: 100%;
+    display: block;
+  }
+  .image1{
+    width: 80%;
+    height: 80%;
+  }
+  .slides :hover .overlay2{
+    height: 67%;
+    opacity: 0.6;
+    margin-top: 10%;
+}
+.overlay2{
+    position: absolute;
+    bottom: 26%;
+    left: 6%;
+    right: 0;
+    background-color:gray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+  }
+  .overlay3{
+    position: absolute;
+    bottom: 20%;
+    left: 6%;
+    right: 0;
+    background-color:gray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+  }
+  .slides :hover .overlay3{
+    height: 67%;
+    opacity: 0.6;
+    margin-top: 10%;
+}
+.overlay4{
+    position: absolute;
+    bottom: 26%;
+    left: 6%;
+    right: 0;
+    background-color:gray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+  }
+  .slides :hover .overlay4{
+    height: 68%;
+    opacity: 0.6;
+    margin-top: 10%;
+}
+.overlay5{
+    position: absolute;
+    bottom: 26%;
+    left: 6%;
+    right: 0;
+    background-color:gray;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+  }
+  .slides :hover .overlay5{
+    height: 67%;
+    opacity: 0.6;
+    margin-top: 10%;
+}
+
+
+    
+   
+
